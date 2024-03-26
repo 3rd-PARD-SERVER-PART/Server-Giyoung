@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/Giyoung")
-public class GiyoungController {
+public class GiyoungController {0
     @GetMapping
     public String user(){
         return "이름 : 김기영, 나이 : 24, 학과 : 전산심화, 취미 : 디지털드로잉";
